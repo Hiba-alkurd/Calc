@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="runJUnit" name="junit-testing">
-	<target name="runJUnit" depends="compile">
-	</target>
-		
-    <target name="compile">
+<project default="compile">
+	  <target name="compile">
     	<mkdir dir="./target"/>
     	 <javac srcdir="./src" destdir="result" debug="true" includeantruntime="fales" >
     	 	</javac>
