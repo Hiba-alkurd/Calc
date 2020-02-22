@@ -1,11 +1,8 @@
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
 
 class CalculatorTest {
 
-	@Test
+
 	public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
 	// Arrange
 	int a = 10;
@@ -14,7 +11,7 @@ class CalculatorTest {
 	// Act
 	int result = calc.sum(a, b);
 	// Assert
-	Assert.assertTrue(result > 0);
+	Assert.assertTrue(result == 30);
 	}
 
 }
