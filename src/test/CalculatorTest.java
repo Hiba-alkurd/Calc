@@ -1,8 +1,11 @@
-import org.junit.Assert;
+package test;
 
-class CalculatorTest {
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import calculator.Calculator;
+public class CalculatorTest {
 
-
+    @Test
 	public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
 	// Arrange
 	int a = 10;
@@ -11,7 +14,7 @@ class CalculatorTest {
 	// Act
 	int result = calc.sum(a, b);
 	// Assert
-	Assert.assertTrue(result == 30);
+	assertEquals(30,result);
 	}
 
 }
