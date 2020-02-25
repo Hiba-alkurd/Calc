@@ -1,7 +1,7 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import org.junit.Assert;
 import calculator.Calculator;
 public class CalculatorTest {
 
@@ -14,7 +14,7 @@ public class CalculatorTest {
 	// Act
 	int result = calc.sum(a, b);
 	// Assert
-	assertEquals(30,result);
+	Assert.assertTrue(result == 30);
 	}
 
 }
