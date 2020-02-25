@@ -44,5 +44,5 @@
 
         </junit>
     </target>
-	<target name="main" depends="compile-testcases" />
+	<target name="main" depends="test" />
 </project>
