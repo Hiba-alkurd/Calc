@@ -1,5 +1,6 @@
 <project name="Calc" default="test" basedir="." >
 	<!-- Project Structure -->
+	
 	<property name="src.java.dir" location="src/calculator" />
 	<property name="src.test.dir" location="src/test" />
 	<property name="result.javaclasses.dir" location="target/classes" />
