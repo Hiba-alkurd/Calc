@@ -14,4 +14,10 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>ANT_HOME</name>
+			<value>file:/C:/apache-ant-1.10.7/bin</value>
+		</variable>
+	</variableList>
 </projectDescription>
