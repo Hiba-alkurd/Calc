@@ -1,4 +1,4 @@
-<project name="Calc" default="test" basedir="." >
+<project name="Calc" default="build" basedir="." >
 	<!-- Project Structure -->
 	
 	<property name="src.java.dir" location="src/calculator" />
@@ -45,5 +45,5 @@
 
         </junit>
     </target>
-	
+	<target name="build" depends="test" />
 </project>
